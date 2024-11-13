@@ -1,0 +1,48 @@
+.biy {
+  margin: auto;
+  max-width: 1170px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./ulaanbar.jpeg);
+  position: relative;
+  /* animation-name: ra;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite; */
+}
+/* @keyframes ra {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+.anime {
+  margin: auto;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  background-image: url(https://media.istockphoto.com/id/1466442535/photo/diverse-american-faces.jpg?s=612x612&w=0&k=20&c=op5vaxRkMGyNSodAy-8RQmv2ruBOXiif-5V1c8gQ2qc=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation-name: ar;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes ar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

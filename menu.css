@@ -1,0 +1,57 @@
+.menu {
+  display: flex;
+  background-color: rgba(42, 42, 42, 255);
+  width: 100%;
+  max-width: 1170px;
+  height: 70px;
+  margin: auto;
+  margin-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.l1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.logo {
+  margin-left: 25px;
+}
+.search input {
+  background-color: rgba(128, 128, 128, 0);
+  border: none;
+  width: 150px;
+  height: 25px;
+}
+.search input:focus {
+  outline: none;
+}
+.haih {
+  background-color: rgb(82, 82, 82);
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+}
+.topic {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 550;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+}
+.l2 {
+  display: flex;
+  gap: 10px;
+  width: 200px;
+  height: 30px;
+}
+.l2 svg {
+  background-color: rgb(82, 82, 82);
+  width: 25px;
+  height: 14px;
+  border-radius: 10px;
+  padding: 10px;
+}
